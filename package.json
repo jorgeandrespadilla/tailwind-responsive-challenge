@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tailwind": "tailwindcss -i ./src/css/styles.css -o ./dist/styles.css",
+    "tailwind:watch": "tailwindcss -i ./src/css/styles.css -o ./dist/styles.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }
